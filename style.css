@@ -1,0 +1,110 @@
+.gradient-background {
+    background: linear-gradient(300deg, #000000, #ff0000, #8b0000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.container {
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+    width: 500px;
+}
+.one img {
+    border-radius: 50%;
+    height: 180px;
+}
+
+
+
+.two h1  {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.three {
+    width: 25%;
+    margin: auto;
+}
+
+.four img {
+    margin: auto;
+    height: 120px;
+}
+
+
+.Title h1 {
+    font-family: Cedarville Cursive;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin-top: 50px;
+    
+}
+.Title {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+
+}
+
+.container-about {
+    display: grid;
+    grid-template-columns: 350px minmax(150px,300px);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.item-1 img {
+    height:250px;
+    width: 350px
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+.skills-container h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.item-3 img {
+    height: 250px;
+    width: 350px
+}
+
+.contact-one {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.contact-two {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    text-align: center;
+}
